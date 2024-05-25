@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on Vijayabaskar@[society]</title>
+    <link>https://vijayabaskar56.github.io/photos/</link>
+    <description>Recent content in Photos on Vijayabaskar@[society]</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vijayabaskar56.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myself, 😁</title>
+      <link>https://vijayabaskar56.github.io/photos/myself/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://vijayabaskar56.github.io/photos/myself/</guid>
+      <description>[Hel Peninsula](Hey, This is myself)</description>
+    </item>
+  </channel>
+</rss>
