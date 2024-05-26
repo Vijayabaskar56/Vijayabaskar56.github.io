@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photos on Vijayabaskar@[society]</title>
-    <link>Vijayabaskar.xyz/photos/</link>
+    <link>//localhost:1313/photos/</link>
     <description>Recent content in Photos on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="Vijayabaskar.xyz/photos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Myself, 😁</title>
-      <link>Vijayabaskar.xyz/photos/myself/</link>
+      <link>//localhost:1313/photos/myself/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>Vijayabaskar.xyz/photos/myself/</guid>
+      <guid>//localhost:1313/photos/myself/</guid>
       <description>[Hel Peninsula](Hey, This is myself)</description>
     </item>
   </channel>
