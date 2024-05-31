@@ -4,48 +4,55 @@
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/</loc>
-            <lastmod>2024-05-25T23:28:00+05:30</lastmod>
+            <loc>https://vijayabaskar.xyz/posts/</loc>
+            <lastmod>2024-05-27T22:20:11+05:30</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/posts/first-post/</loc>
+            <loc>https://vijayabaskar.xyz/</loc>
+            <lastmod>2024-05-27T22:20:11+05:30</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://vijayabaskar.xyz/about/</loc>
+            <lastmod>2024-05-27T22:12:59+05:30</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://vijayabaskar.xyz/posts/first-post/</loc>
             <lastmod>2024-05-25T23:26:50+05:30</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/posts/</loc>
-            <lastmod>2024-05-25T23:26:50+05:30</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://vijayabaskar.xyz/photos/myself/</loc>
+            <loc>https://vijayabaskar.xyz/photos/myself/</loc>
             <lastmod>2020-01-21T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/photos/</loc>
+            <loc>https://vijayabaskar.xyz/photos/</loc>
             <lastmod>2020-01-21T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/categories/</loc>
+            <loc>https://vijayabaskar.xyz/categories/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://vijayabaskar.xyz/tags/</loc>
+            <loc>https://vijayabaskar.xyz/tags/</loc>
         </url>
         
     
