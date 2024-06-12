@@ -24,8 +24,8 @@
 
 
 <meta name="twitter:title" content="DNS Demystified"/>
-<meta name="twitter:description" content="DNS I have recently purchased a domain and set up this blog, and while doing it, I learned how to configure domain , and then I got curious and learned more about the DNS system and how it works and its different types. so in this post I am going to Demystify the DNS system from the beginner perspective.
-Is a Robust System that Upload the Intenet as we know, and when I learn about it , it facinate me , how to system is strucutred and designed"/>
+<meta name="twitter:description" content="Introduction Setting up my blog and configuring my domain introduced me to the fascinating world of the Domain Name System (DNS). As I delved deeper, I realized how crucial DNS is to the functioning of the internet, yet it often goes unnoticed. This post aims to demystify DNS from a beginner&rsquo;s perspective, sharing what I&rsquo;ve learned about this robust system that underpins the web.
+“DNS is kind of the hamster under the hood that drives the Internet."/>
 
   
 
@@ -64,42 +64,95 @@ May. 27, 2024
 
 
 <br/><br/>
-<h1 id="dns">DNS</h1>
-<p>I have recently purchased a domain and set up this blog, and while doing it, I learned how to configure domain , and then I got curious and learned more about the DNS system and how it works and its different types. so in this post I am going to Demystify the DNS system from the beginner perspective.</p>
-<p>Is a Robust System that Upload the Intenet as we know, and when I learn about it , it facinate me , how to system is strucutred and designed</p>
-<p>| “DNS is kind of the hamster under the hood that drives the Internet.”
-- David Ulevitch</p>
-<h2 id="what-is-dns">What is DNS</h2>
-<p>DNS (Domain Name System) - is a system that is designed from the group of to manage the Domain of the Intenet.</p>
-<p>DNS Solve the Problem of we as human with a poor memory power need to enter number of ip address for each time when we wanted to visit our faviour site</p>
-<p>It Solve this using a system</p>
-<p>The beauty Lies in the Brilliance of the desinged, imageing a task of designing a database that has billion and billion of entries, but still need to be quried in a nano seconds, and that were the enginnering behind the DNS design comes into play</p>
-<p>they divide the searching and filtering into 3 part, and each part get you closer to you domain</p>
-<h2 id="type-of-dns-records-types">Type of DNS Records Types</h2>
-<h3 id="a-record-address-record">A Record (Address Record)</h3>
-<p>Function: Returns a 32-bit IPv4 address. It’s commonly used to map hostnames to IP addresses.
-Example: If you type “example.com” in your browser, the A record helps resolve it to an actual IP address like 192.0.2.11.</p>
-<h3 id="aaaa-record-ipv6-address-record">AAAA Record (IPv6 Address Record)</h3>
-<p>Function: Returns a 128-bit IPv6 address. Used to map hostnames to IPv6 addresses.
-Example: Similar to A records but for IPv6 addresses.</p>
-<h3 id="cname-record-canonical-name">CNAME Record (Canonical Name)</h3>
-<p>Function: Creates an alias for one name to another. The DNS lookup continues by retrying with the new name.
-Example: If “www” is a CNAME for “webserver,” accessing “www.example.com” will lead to “webserver.example.com.”</p>
-<h3 id="ns-records-nameservers">NS Records (Nameservers)</h3>
-<p>Function: Specifies the authoritative nameservers for a domain.
-Example: These records point to servers where all DNS records for a domain are stored.</p>
-<h3 id="mx-records-mail-exchanger">MX Records (Mail Exchanger)</h3>
-<p>Function: Points a domain to email servers using SMTP.
-Example: When someone sends an email to “<a href="mailto:user@example.com">user@example.com</a>,” MX records direct it to the appropriate mail server.</p>
-<h3 id="txt-record">TXT Record</h3>
-<p>Function: Used for various authentication methods and verifying domain ownership.
-Example: Often used for SPF (Sender Policy Framework) records to prevent email spoofing.</p>
-<h3 id="ptr-record-pointer">PTR Record (Pointer)</h3>
-<p>Function: Used for reverse DNS lookup. Associates an IP address with its domain name.
-Example: Helps verify the authenticity of an IP address.</p>
-<h3 id="srv-record-service-locator">SRV Record (Service Locator)</h3>
-<p>Function: Specifies the location of services (e.g., SIP, XMPP) in the network.
-Example: Used for generalized service location1.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Setting up my blog and configuring my domain introduced me to the fascinating world of the Domain Name System (DNS). As I delved deeper, I realized how crucial DNS is to the functioning of the internet, yet it often goes unnoticed. This post aims to demystify DNS from a beginner&rsquo;s perspective, sharing what I&rsquo;ve learned about this robust system that underpins the web.</p>
+<blockquote>
+<p>“DNS is kind of the hamster under the hood that drives the Internet.” - David Ulevitch</p>
+</blockquote>
+<h2 id="what-is-dns">What is DNS?</h2>
+<p>The Domain Name System (DNS) is an essential component of the internet&rsquo;s infrastructure. It functions as the internet&rsquo;s phonebook,translating human-friendly domain names like &ldquo;vijayabaskar.xyz&rdquo; into IP addresses that computers use to identify each other on the network.</p>
+<p>Without DNS, we would need to memorize long strings of numbers for every website we want to visit. DNS solves this problem with a hierarchical system designed to handle billions of queries per second with remarkable efficiency.</p>
+<p>Imagine the challenge of creating a database with billions of entries that needs to be queried almost instantaneously. The brilliance of DNS lies in its hierarchical structure, which distributes the workload across multiple servers, ensuring quick and reliable access to any domain.</p>
+<h2 id="how-dns-works">How DNS Works</h2>
+<p>The DNS process involves several key components working together to resolve domain names into IP addresses. Here&rsquo;s a simplified breakdown:</p>
+<h3 id="root-server"><strong>Root Server</strong></h3>
+<ul>
+<li>The top-level DNS server that directs queries to the appropriate TLD server.</li>
+</ul>
+<h3 id="top-level-dns-server"><strong>Top Level DNS Server</strong></h3>
+<ul>
+<li>Manages the top-level domains (e.g., .com, .org) and directs queries to the correct authoritative name server.</li>
+</ul>
+<h3 id="authoritative-name-server"><strong>Authoritative Name Server</strong></h3>
+<ul>
+<li>Contains the actual DNS records for the domain and responds with the IP address for the requested domain.</li>
+</ul>
+<h3 id="local-dns-server"><strong>Local DNS Server</strong></h3>
+<ul>
+<li>Often operated by ISPs, these servers cache DNS records to speed up the resolution process for frequently accessed domains.</li>
+</ul>
+<p><img src="/assets/dns-flow.jpg" alt="DNS Resolvers Flow"></p>
+<h2 id="types-of-dns-records">Types of DNS Records</h2>
+<p>DNS records are entries in the DNS database that provide information about a domain. Here are the most common types:</p>
+<ul>
+<li>
+<p><strong>A Record (Address Record)</strong></p>
+<ul>
+<li><strong>Function:</strong> Maps a hostname to a 32-bit IPv4 address.</li>
+<li><strong>Example:</strong> &ldquo;vijayabaskar.xyz&rdquo; to 192.0.2.11.</li>
+</ul>
+</li>
+<li>
+<p><strong>AAAA Record (IPv6 Address Record)</strong></p>
+<ul>
+<li><strong>Function:</strong> Maps a hostname to a 128-bit IPv6 address.</li>
+<li><strong>Example:</strong> Similar to A records but for IPv6 addresses.</li>
+</ul>
+</li>
+<li>
+<p><strong>CNAME Record (Canonical Name)</strong></p>
+<ul>
+<li><strong>Function:</strong> Creates an alias for one name to another.</li>
+<li><strong>Example:</strong> &ldquo;<a href="https://www.vijayabaskar.xyz">www.vijayabaskar.xyz</a>&rdquo; to &ldquo;webserver.vijayabaskar.xyz.&rdquo;</li>
+</ul>
+</li>
+<li>
+<p><strong>NS Records (Nameservers)</strong></p>
+<ul>
+<li><strong>Function:</strong> Specifies the authoritative nameservers for a domain.</li>
+<li><strong>Example:</strong> Points to servers where all DNS records for a domain are stored.</li>
+</ul>
+</li>
+<li>
+<p><strong>MX Records (Mail Exchanger)</strong></p>
+<ul>
+<li><strong>Function:</strong> Directs email to the correct mail server.</li>
+<li><strong>Example:</strong> &ldquo;user@vijayabaskar.xyz&rdquo; is directed to the appropriate mail server.</li>
+</ul>
+</li>
+<li>
+<p><strong>TXT Record</strong></p>
+<ul>
+<li><strong>Function:</strong> Provides text information to sources outside your domain.</li>
+<li><strong>Example:</strong> Used for SPF records to prevent email spoofing.</li>
+</ul>
+</li>
+<li>
+<p><strong>PTR Record (Pointer)</strong></p>
+<ul>
+<li><strong>Function:</strong> Used for reverse DNS lookup, associating an IP address with a domain name.</li>
+<li><strong>Example:</strong> Verifies the authenticity of an IP address.</li>
+</ul>
+</li>
+<li>
+<p><strong>SRV Record (Service Locator)</strong></p>
+<ul>
+<li><strong>Function:</strong> Specifies the location of services (e.g., SIP, XMPP) within the network.</li>
+<li><strong>Example:</strong> Used for generalized service location.</li>
+</ul>
+</li>
+</ul>
+<p>DNS is a fundamental yet often overlooked component of the internet, enabling us to navigate the web with ease. Understanding DNS not only demystifies the process but also highlights the incredible engineering that powers our daily internet activities. My journey into DNS has been eye-opening, revealing the intricate mechanisms that keep the internet running smoothly.</p>
 
 
 
