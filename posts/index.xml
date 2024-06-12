@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2024 23:26:50 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 22:20:11 +0530</lastBuildDate>
     <atom:link href="https://vijayabaskar.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DNS Demystified</title>
+      <link>https://vijayabaskar.xyz/posts/dns_demystififed/</link>
+      <pubDate>Mon, 27 May 2024 22:20:11 +0530</pubDate>
+      <guid>https://vijayabaskar.xyz/posts/dns_demystififed/</guid>
+      <description>Introduction Setting up my blog and configuring my domain introduced me to the fascinating world of the Domain Name System (DNS). As I delved deeper, I realized how crucial DNS is to the functioning of the internet, yet it often goes unnoticed. This post aims to demystify DNS from a beginner&amp;rsquo;s perspective, sharing what I&amp;rsquo;ve learned about this robust system that underpins the web.&#xA;“DNS is kind of the hamster under the hood that drives the Internet.</description>
+    </item>
     <item>
       <title>My Own Corner of the Internet</title>
       <link>https://vijayabaskar.xyz/posts/first-post/</link>
