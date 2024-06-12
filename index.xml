@@ -6,8 +6,15 @@
     <description>Recent content on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 May 2024 13:34:01 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 15:30:36 +0530</lastBuildDate>
     <atom:link href="https://vijayabaskar.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OWASP API Security</title>
+      <link>https://vijayabaskar.xyz/posts/owasp_api_security/</link>
+      <pubDate>Wed, 12 Jun 2024 15:30:36 +0530</pubDate>
+      <guid>https://vijayabaskar.xyz/posts/owasp_api_security/</guid>
+      <description>I am preparing for an interview and noticed that the job description mentions knowledge of OWASP is required. Since I didn&amp;rsquo;t know what it was, I did what any reasonable person would do—I googled it. Googling only gives you a surface level of information, and for me, that’s never enough. I try to reach at least a 5/10 level of understanding when I learn any subject, and that’s when I feel satisfied.</description>
+    </item>
     <item>
       <title>Power Up Your Windows PowerShell</title>
       <link>https://vijayabaskar.xyz/posts/powerup_your_powershell/</link>
