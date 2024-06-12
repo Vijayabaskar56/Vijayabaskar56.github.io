@@ -6,8 +6,15 @@
     <description>Recent content on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2024 22:20:11 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 13:34:01 +0530</lastBuildDate>
     <atom:link href="https://vijayabaskar.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Up Your Windows PowerShell</title>
+      <link>https://vijayabaskar.xyz/posts/powerup_your_powershell/</link>
+      <pubDate>Thu, 30 May 2024 13:34:01 +0530</pubDate>
+      <guid>https://vijayabaskar.xyz/posts/powerup_your_powershell/</guid>
+      <description>I recently bought a new laptop which comes with Windows preinstalled on it, but I am an avid Linux user. I love the flexibility and freedom that Linux provides, and I have my fair bit of experience with various Linux distros, from Ubuntu, Zorin, Kali to Arch.&#xA;So my first thought after getting my new laptop was to switch to Arch, but I wanted to give Windows a try before switching.</description>
+    </item>
     <item>
       <title>DNS Demystified</title>
       <link>https://vijayabaskar.xyz/posts/dns_demystififed/</link>
