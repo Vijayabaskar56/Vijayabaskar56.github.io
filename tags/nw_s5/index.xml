@@ -6,10 +6,17 @@
     <description>Recent content in N&amp;w_s5 on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jun 2024 23:41:57 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 00:19:07 +0530</lastBuildDate>
     <atom:link href="https://vijayabaskar.xyz/tags/nw_s5/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kick_off_nights_and_weekends_s5</title>
+      <title>Day 2 of nights and weekends</title>
+      <link>https://vijayabaskar.xyz/posts/day_2/</link>
+      <pubDate>Fri, 21 Jun 2024 00:19:07 +0530</pubDate>
+      <guid>https://vijayabaskar.xyz/posts/day_2/</guid>
+      <description>It&amp;rsquo;s day two , and like I said yestarday I wanted to document my journey, so here I am,&#xA;I started to working on my app and what I have done today is just build the navigation of the app, and decided how many screens it going to have and what are the main thing to focus on.&#xA;Screen 1 : list of Songs alogn with the search bar Screen 2 : creat room discover rooms, Screen 3 : account</description>
+    </item>
+    <item>
+      <title>Kick off nights and weekends S5</title>
       <link>https://vijayabaskar.xyz/posts/kick_off_nights_and_weekends_s5/</link>
       <pubDate>Wed, 19 Jun 2024 23:41:57 +0530</pubDate>
       <guid>https://vijayabaskar.xyz/posts/kick_off_nights_and_weekends_s5/</guid>
