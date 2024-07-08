@@ -6,15 +6,8 @@
     <description>Recent content in N&amp;w_s5 on Vijayabaskar@[society]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 22:23:48 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 23:41:57 +0530</lastBuildDate>
     <atom:link href="https://vijayabaskar.xyz/tags/nw_s5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Day 3 of nights and weekends</title>
-      <link>https://vijayabaskar.xyz/posts/day_3/</link>
-      <pubDate>Fri, 21 Jun 2024 22:23:48 +0530</pubDate>
-      <guid>https://vijayabaskar.xyz/posts/day_3/</guid>
-      <description>Hey, It&amp;rsquo;s officially day 3 from the day I have started, and I haven&amp;rsquo;t made much progress till now, but I am determined to stick to the end. I believe every single progress counts.&#xA;So here is today&amp;rsquo;s progress: I created a mock scroll view of songs with dummy data, and I am also planning to use the Spotify Developer API to get the user&amp;rsquo;s recently listened songs and display the songs on the Home Screen so that it can be easy to add their recent favorites to the room.</description>
-    </item>
     <item>
       <title>Kick off nights and weekends S5</title>
       <link>https://vijayabaskar.xyz/posts/kick_off_nights_and_weekends_s5/</link>
